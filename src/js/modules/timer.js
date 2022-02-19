@@ -9,7 +9,7 @@ const timer = (id, deadline) => {
 
   const getTimeremaining = (endTime) => {
     //let transformationIntoPositive = Math.abs(endTime)
-
+    console.log('t', endTime);
     const t = Date.parse(endTime) - Date.parse(new Date()),
       seconds = Math.floor((t / 1000) % 60),
       minutes = Math.floor((t / 1000 / 60) % 60),
