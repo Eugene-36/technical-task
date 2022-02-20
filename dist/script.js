@@ -16205,7 +16205,7 @@ window.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
   let modalState = {};
-  let deadline = '2022-01-01';
+  let deadline = '2022-03-01';
   Object(_modules_changeModalState__WEBPACK_IMPORTED_MODULE_4__["default"])(modalState);
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider', '.glazing_block', '.glazing_content', 'active');
